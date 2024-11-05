@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<!-- La definición del tipo de documento (DOCTYPE) especifica que este archivo es una configuración de Hibernate y utiliza la DTD (Document Type Definition) de Hibernate 3.0 para validación. -->
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- Configuración de la conexión a la base de datos: -->
+        
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <!-- Especifica el driver JDBC para MySQL. Es necesario para que Hibernate pueda establecer una conexión con la base de datos. -->
+        
+        <property name="connection.url">jdbc:mysql://localhost/Hibernate1</property>
+        <!-- Define la URL de conexión a la base de datos. "Hibernate1" es el nombre de la base de datos en el servidor local (localhost). -->
+        
+        <property name="connection.username">root</property>
+        <!-- Usuario para la conexión a la base de datos. En este caso, es el usuario "root", que es el administrador por defecto en muchos sistemas de gestión de bases de datos. -->
+        
+        <property name="connection.password">coupecabrio1</property>
+        <!-- Contraseña para el usuario especificado en la conexión a la base de datos. -->
+        
+        <property name="hibernate.show_sql">true</property>
+        <!-- Esta propiedad, cuando se establece en "true", hace que Hibernate muestre en la consola las instrucciones SQL generadas, lo cual es útil para propósitos de depuración y entendimiento del comportamiento de Hibernate. -->
+        
+    </session-factory>
+</hibernate-configuration>
