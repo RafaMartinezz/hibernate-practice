@@ -1,4 +1,4 @@
-# Employee and Department Management System Using Hibernate ORM
+# Employee and department management system using Hibernate ORM
 
 This project implements a simple **Employee and Department Management System** using **Hibernate ORM** to perform basic CRUD (Create, Read, Update, Delete) operations on a MySQL database. The project showcases key aspects of using Hibernate, including entity mappings, session management, and HQL (Hibernate Query Language) for complex queries.
 
